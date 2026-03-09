@@ -69,6 +69,10 @@ ul {
     font-weight: 900;
 }
 
+.hero-subtext {
+    text-wrap: wrap;
+}
+
 button  {
     background-color: #3882F6;
     border-radius: 5px;
@@ -86,6 +90,7 @@ button  {
 #container-2 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-top: 16px;
     padding-bottom: 40px;
