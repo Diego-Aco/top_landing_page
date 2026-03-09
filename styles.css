@@ -74,6 +74,7 @@ button  {
     border-radius: 5px;
     height: 30px;
     width: 90px;
+    border-color: #E5E7EB;
 }
 
 .hero-left-side {
@@ -113,19 +114,70 @@ button  {
 .subtext {
     text-align: center;
     color:#1F2937;
+    text-wrap: wrap;
+    width: 100px;
 }
 
 .image-set {
     display: flex;
-    gap: 8px;
+    gap: 24px;
 }
 
 
 #container-3 {
     background-color: #E5E7EB;
     flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 48px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    text-wrap: wrap;
+    align-self: center;
+    width: 450px;
+}
+
+.quote-source {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 600;
+    align-self: flex-end;
 }
 
 #container-4 {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 64px;
+}
+
+.subcontainer {
+    background-color: #3882f6;
+    padding: 16px 48px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.subcontainer-left-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signup-subtext {
+    font-size: 14px;
 }
